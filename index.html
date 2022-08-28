@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+<body>
+    <div class="ancient main">
+        <button class="button-ancient azathoth"><img src="./assets/Ancients/Azathoth.png" alt="azathoth"></button>
+        <button class="button-ancient cthulth"><img src="./assets/Ancients/Cthulthu.png" alt="cthulth"></button>
+        <button class="button-ancient iogsothoth"><img src="./assets/Ancients/IogSothoth.png" alt="iogsothoth"></button>
+        <button class="button-ancient shubniggurath"><img src="./assets/Ancients/ShubNiggurath.png" alt="shubniggurath"></button>
+    </div>
+    <div class="level main hidden">
+        <button class="button-level very-easy">Очень низкая</button>
+        <button class="button-level easy">Низкая</button>
+        <button class="button-level middle">Средняя</button>
+        <button class="button-level hard">Высокая</button>
+        <button class="button-level very-hard">Очень высокая</button>
+    </div>
+    <div class="deck main">
+        <div class="count hidden">
+            <div class="first">
+                <p>Первая стадия</p>
+                <div class="number">
+                    <span class="green-first circle green">0</span>
+                    <span class="brown-first circle brown">0</span>
+                    <span class="blue-first circle blue">0</span>
+                </div>
+            </div>
+            <div class="second">
+                <p>Вторая стадия</p>
+                <div class="number">
+                    <span class="green-second circle green">0</span>
+                    <span class="brown-second circle brown">0</span>
+                    <span class="blue-second circle blue">0</span>
+                </div>
+                
+            </div>
+            <div class="third">
+                <p>Третья стадия</p>
+                <div class="number">
+                    <span class="green-third circle green">0</span>
+                    <span class="brown-third circle brown">0</span>
+                    <span class="blue-third circle blue">0</span>
+                </div>
+            </div>
+        </div>
+        <button class="mix hidden">Замешать колоду</button>
+        <div class="card hidden">
+            <button class="card-background"><img src="../assets/mythicCardBackground.png" alt="Background"></button>
+            <div class="card-facial hidden"><img src="../assets/mythicCardBackground.png" alt="facial" class="face"></div>
+        </div>
+    </div>
+    <script src="./script/script.js" type="module"></script>
+</body>
+</html>
